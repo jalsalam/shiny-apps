@@ -1,5 +1,6 @@
 # app.R - a simple one-fil app
 library("tidyverse")
+library("rlang")
 
 ui <- bootstrapPage(
   selectInput("group_var", "Group variable", choices = c("manufacturer", "model", "displ", "class") ),
