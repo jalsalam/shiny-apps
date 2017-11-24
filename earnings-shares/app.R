@@ -3,10 +3,11 @@
 #
 
 library(shiny)
-library(htmltab)
 library(tidyverse)
 library(stringr)
 library(forcats)
+install.packages("htmltab")
+library(htmltab)
 
 # scrape SSA data
 ssa_wage_data <- seq(1990, 2016, 1) %>%
