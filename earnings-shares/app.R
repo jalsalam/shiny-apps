@@ -6,7 +6,6 @@ library(shiny)
 library(tidyverse)
 library(stringr)
 library(forcats)
-install.packages("htmltab")
 library(htmltab)
 
 # scrape SSA data
