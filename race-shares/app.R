@@ -60,7 +60,7 @@ make_shares <- function(data, min_age = 0, max_age = 100) {
 
 ui <- fluidPage(
     
-    titlePanel("Race-Ethnicty Shares in the New Census Population Projections"),
+    titlePanel("Race-Ethnicity Shares in the New Census Population Projections"),
     
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
